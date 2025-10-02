@@ -3,10 +3,8 @@ An app in SwiftUI where the app should fetches posts from an API and allow users
 
 # Project Setup Instructions
     1.    Clone the repository to your local machine.
-    2.    If using Swift Package Manager (recommended), open the  .xcodeproj  in Xcode.
-    •    If using CocoaPods, make sure to run  pod install  first, then open the  .xcworkspace  file.
-    3.    Ensure your environment matches the specified iOS and Xcode versions below.
-    4.    Build and run on your desired simulator or iOS device.
+    2.    Ensure your environment matches the specified iOS and Xcode versions below.
+    3.    Build and run on your desired simulator or iOS device.
     
 # iOS & Xcode Version Used
     •    iOS Deployment Target: 15.6 or later
