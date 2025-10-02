@@ -6,17 +6,37 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BA4B63C92E8E8A280095F52E /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4B63B52E8E8A280095F52E /* FavoritesView.swift */; };
+		BA4B63CA2E8E8A280095F52E /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4B63B72E8E8A280095F52E /* PostDetailView.swift */; };
+		BA4B63CB2E8E8A280095F52E /* PostRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4B63B82E8E8A280095F52E /* PostRowView.swift */; };
+		BA4B63CC2E8E8A280095F52E /* PostsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4B63B92E8E8A280095F52E /* PostsListView.swift */; };
+		BA4B63CD2E8E8A280095F52E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4B63BB2E8E8A280095F52E /* HomeView.swift */; };
+		BA4B63CE2E8E8A280095F52E /* PostViewerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4B63BD2E8E8A280095F52E /* PostViewerApp.swift */; };
+		BA4B63CF2E8E8A280095F52E /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4B63BF2E8E8A280095F52E /* PostModel.swift */; };
+		BA4B63D02E8E8A280095F52E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4B63C12E8E8A280095F52E /* NetworkManager.swift */; };
+		BA4B63D12E8E8A280095F52E /* PostsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4B63C32E8E8A280095F52E /* PostsViewModel.swift */; };
+		BA4B63D22E8E8A280095F52E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4B63C62E8E8A280095F52E /* ContentView.swift */; };
+		BA4B63D42E8E8A280095F52E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA4B63C52E8E8A280095F52E /* Assets.xcassets */; };
+		BA4B67D62E8E97460095F52E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA4B67D52E8E97460095F52E /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		BA4B63B52E8E8A280095F52E /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		BA4B63B72E8E8A280095F52E /* PostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
+		BA4B63B82E8E8A280095F52E /* PostRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRowView.swift; sourceTree = "<group>"; };
+		BA4B63B92E8E8A280095F52E /* PostsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsListView.swift; sourceTree = "<group>"; };
+		BA4B63BB2E8E8A280095F52E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BA4B63BD2E8E8A280095F52E /* PostViewerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewerApp.swift; sourceTree = "<group>"; };
+		BA4B63BF2E8E8A280095F52E /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		BA4B63C12E8E8A280095F52E /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		BA4B63C32E8E8A280095F52E /* PostsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewModel.swift; sourceTree = "<group>"; };
+		BA4B63C52E8E8A280095F52E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA4B63C62E8E8A280095F52E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BA4B67BF2E8E91040095F52E /* Lottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Lottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA4B67D52E8E97460095F52E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BAEBA1D82E8C0FD60079A10C /* PostViewerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostViewerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		BAEBA1DA2E8C0FD60079A10C /* PostViewerApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PostViewerApp;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BAEBA1D52E8C0FD60079A10C /* Frameworks */ = {
@@ -29,11 +49,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA4B63B42E8E8A280095F52E /* CommonUtilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CommonUtilities;
+			sourceTree = "<group>";
+		};
+		BA4B63B62E8E8A280095F52E /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				BA4B63B52E8E8A280095F52E /* FavoritesView.swift */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		BA4B63BA2E8E8A280095F52E /* PostListing */ = {
+			isa = PBXGroup;
+			children = (
+				BA4B63B72E8E8A280095F52E /* PostDetailView.swift */,
+				BA4B63B82E8E8A280095F52E /* PostRowView.swift */,
+				BA4B63B92E8E8A280095F52E /* PostsListView.swift */,
+			);
+			path = PostListing;
+			sourceTree = "<group>";
+		};
+		BA4B63BC2E8E8A280095F52E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BA4B63B62E8E8A280095F52E /* Favorites */,
+				BA4B63BA2E8E8A280095F52E /* PostListing */,
+				BA4B63BB2E8E8A280095F52E /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BA4B63BE2E8E8A280095F52E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BA4B63BD2E8E8A280095F52E /* PostViewerApp.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BA4B63C02E8E8A280095F52E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA4B63BF2E8E8A280095F52E /* PostModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA4B63C22E8E8A280095F52E /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				BA4B63C12E8E8A280095F52E /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		BA4B63C42E8E8A280095F52E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BA4B63C32E8E8A280095F52E /* PostsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BA4B63C82E8E8A280095F52E /* PostViewerApp */ = {
+			isa = PBXGroup;
+			children = (
+				BA4B63B42E8E8A280095F52E /* CommonUtilities */,
+				BA4B63BC2E8E8A280095F52E /* Home */,
+				BA4B63BE2E8E8A280095F52E /* Main */,
+				BA4B63C02E8E8A280095F52E /* Model */,
+				BA4B63C22E8E8A280095F52E /* NetworkManager */,
+				BA4B63C42E8E8A280095F52E /* ViewModel */,
+				BA4B63C52E8E8A280095F52E /* Assets.xcassets */,
+				BA4B67D52E8E97460095F52E /* Images.xcassets */,
+				BA4B63C62E8E8A280095F52E /* ContentView.swift */,
+			);
+			path = PostViewerApp;
+			sourceTree = "<group>";
+		};
 		BAEBA1CF2E8C0FD60079A10C = {
 			isa = PBXGroup;
 			children = (
-				BAEBA1DA2E8C0FD60079A10C /* PostViewerApp */,
+				BA4B63C82E8E8A280095F52E /* PostViewerApp */,
 				BAEBA1D92E8C0FD60079A10C /* Products */,
+				DF9AE01C54678A724E14664E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -43,6 +147,14 @@
 				BAEBA1D82E8C0FD60079A10C /* PostViewerApp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		DF9AE01C54678A724E14664E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA4B67BF2E8E91040095F52E /* Lottie.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -60,12 +172,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				BAEBA1DA2E8C0FD60079A10C /* PostViewerApp */,
-			);
 			name = PostViewerApp;
-			packageProductDependencies = (
-			);
 			productName = PostViewerApp;
 			productReference = BAEBA1D82E8C0FD60079A10C /* PostViewerApp.app */;
 			productType = "com.apple.product-type.application";
@@ -109,6 +216,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA4B63D42E8E8A280095F52E /* Assets.xcassets in Resources */,
+				BA4B67D62E8E97460095F52E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +228,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA4B63C92E8E8A280095F52E /* FavoritesView.swift in Sources */,
+				BA4B63CA2E8E8A280095F52E /* PostDetailView.swift in Sources */,
+				BA4B63CB2E8E8A280095F52E /* PostRowView.swift in Sources */,
+				BA4B63CC2E8E8A280095F52E /* PostsListView.swift in Sources */,
+				BA4B63CD2E8E8A280095F52E /* HomeView.swift in Sources */,
+				BA4B63CE2E8E8A280095F52E /* PostViewerApp.swift in Sources */,
+				BA4B63CF2E8E8A280095F52E /* PostModel.swift in Sources */,
+				BA4B63D02E8E8A280095F52E /* NetworkManager.swift in Sources */,
+				BA4B63D12E8E8A280095F52E /* PostsViewModel.swift in Sources */,
+				BA4B63D22E8E8A280095F52E /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +368,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -258,6 +378,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -265,6 +386,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.postViewer.app.PostViewerApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
@@ -280,8 +402,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -289,6 +412,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,6 +420,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.postViewer.app.PostViewerApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
